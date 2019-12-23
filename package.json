@@ -1,0 +1,28 @@
+{
+  "name": "webcomponent",
+  "version": "1.0.0",
+  "description": "Web component using javascript and jquery",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "keywords": [
+    "Javascript",
+    "Jquery",
+    "Web",
+    "Component"
+  ],
+  "author": "Diogo Ferraz",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "css-loader": "^3.3.2",
+    "eventemitter3": "^4.0.0",
+    "jquery": "^3.4.1",
+    "style-loader": "^1.0.1"
+  }
+}
