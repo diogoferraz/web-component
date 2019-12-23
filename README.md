@@ -1,2 +1,2 @@
-# web-component
-Web component written in pure javascript and jquery ES6
+# Javascript and Jquery Web Component
+Web component written in javascript and jquery ES6
