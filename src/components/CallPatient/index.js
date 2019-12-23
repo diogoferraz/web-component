@@ -1,7 +1,7 @@
 import $ from 'jquery';
-import '../../assets/Button/style.css';
+import '../../assets/CallPatient/style.css';
 
-class Button {
+class CallPatient {
     constructor({ root, number }) {
         //create button instance and add event listener
         this.button = $(root);
@@ -53,4 +53,4 @@ class Button {
     }
 }
 
-export default Button;
+export default CallPatient;
